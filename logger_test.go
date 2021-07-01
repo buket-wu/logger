@@ -1,12 +1,11 @@
 package logger
 
 import (
-	"github.com/sirupsen/logrus"
 	"testing"
 )
 
 func init() {
-	InitLogrus(logrus.TraceLevel)
+	InitLogrus(TraceLevel)
 }
 
 func TestLogger_print(t *testing.T) {
